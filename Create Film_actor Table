@@ -1,0 +1,13 @@
+CREATE TABLE Film_actor (
+    actor_id int,
+    film_id int PRIMARY KEY,
+    Last_update varchar(255),
+    Phone BIGINT,
+    constraint FK_Film foreign key (film_id) references Film (film_id)
+);
+
+OUTPUT:
+actor_id	film_id	Last_update	Phone
+11	          1	     2022	12346
+12	          2	     2022	23457
+13	          3	     2021	67976
