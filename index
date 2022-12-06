@@ -1,0 +1,6 @@
+CREATE INDEX id on Film (film_id,
+    Title,
+    release_date,
+    length,
+    rating
+);
