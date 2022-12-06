@@ -1,0 +1,16 @@
+SELECT Film.Title, Film_actor.actor_id
+FROM Film
+LEFT JOIN Film_actor ON Film.film_id = film_actor.film_id;
+
+Output:
+
+Title	actor_id
+AB	11
+CD	12
+XY	13
+PQ	
+LM	
+EF	
+GH	
+IK	
+
