@@ -1,0 +1,8 @@
+select Count(film_id), release_date from Film Group by release_date;
+
+Count(film_id)	release_date
+1	        2018
+1	        2019
+2	        2020
+2	        2021
+2	        2022
