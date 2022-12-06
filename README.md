@@ -1,6 +1,7 @@
 # Sql_practice
  Questions:
- 0. Create Entity Diagram for table1 and table2 and share screenshot
+ 
+0. Create Entity Diagram for table1 and table2 and share screenshot
 1. Prepare script to create table1 and table2 with primary key
 2. Prepare script to add foreign key constraint on any one table
 3. Prepare script to add unique constraint to any one column
