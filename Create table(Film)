@@ -1,0 +1,14 @@
+CREATE TABLE Film (
+    film_id int PRIMARY KEY,
+    Title char(255),
+    release_date int(255),
+    length int (255),
+    rating  varchar(20)
+);
+
+OUTPUT:
+film_id	 Title	release_date	length	rating
+1	 AB	       2022	    3	      4
+2	 CD	       2021	    2.5	    5
+3	 XY	       2020	    3	      3
+4	 PQ	       2022	    3	      4
