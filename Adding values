@@ -1,0 +1,34 @@
+INSERT INTO Film (film_id, Title, release_date, length,  rating)
+VALUES (1, 'AB', '2022', '3', 4),
+(2, 'CD', '2021', '2.5', 5),
+(3, 'XY', '2020', '3', 3)
+(4,	'PQ', '2022','3',	4),
+(5,,	'LM',	'2019',	'2.5',	5),
+(6,   'EF',	'2018',	'2',	5),
+(7,	'GH',	'2021',	'2.5',	5),
+(8,	'IK',	'2020',	'2',	4)';
+
+
+INSERT INTO Film_actor (actor_id,film_id,Last_update,Phone)
+VALUES (11, 1, '2022', 12346),
+       (12, 2, '2022', 23457),
+       (13, 3, '2021', 67976);
+       
+ Output:
+ 
+film_id	Title	release_date	length	rating
+1	AB	2022	3	4
+2	CD	2021	2.5	5
+3	XY	2020	3	3
+4	PQ	2022	3	4
+5	LM	2019	2.5	5
+6	EF	2018	2	5
+7	GH	2021	2.5	5
+8	IK	2020	2	4
+
+
+Film_actor
+actor_id	film_id	Last_update	Phone
+11	1	2022	12346
+12	2	2022	23457
+13	3	2021	67976
