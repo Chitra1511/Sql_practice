@@ -1,0 +1,9 @@
+SELECT Film_actor.actor_id, Film.film_id
+FROM Film_actor
+INNER JOIN Film ON Film_actor.film_id = Film.film_id
+
+Output:
+actor_id	film_id
+11	1
+12	2
+13	3
