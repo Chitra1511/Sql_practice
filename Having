@@ -1,0 +1,7 @@
+select Count(film_id) as id ,release_date from Film Group by release_date HAVING Count(film_id)>1;
+
+output:
+id	release_date
+2	2020
+2	2021
+2	2022
